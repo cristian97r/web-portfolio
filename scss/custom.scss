@@ -1,0 +1,26 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#landing {
+    position: relative;
+    z-index: 1;
+    padding-top: 40vh;
+    padding-bottom: 22vh;
+}
+
+#slideshow {
+    z-index: -1;
+    position: absolute ;
+    top: 0;
+    left: 0;
+}
+
+.carousel {
+    height: 87.4vh;
+    width: 100%;
+
+    .carousel-inner {
+        height:100%;    
+    }
+}
