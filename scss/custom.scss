@@ -36,22 +36,29 @@ body {
 @media (max-width: 575.98px) { 
     #landing {
         padding-top: 3vh;
-        padding-bottom: 2vh;
+        padding-bottom: 9vh;
     }
  }
 
 @media (max-width: 767.98px) { 
     #landing {
-        padding-top: 3vh;
-        padding-bottom: 0vh;
+        padding-top: 9vh;
+        padding-bottom: 10vh;
     }
  }
- @media (min-width: 992px) and (max-width: 1280.98px) { 
+ @media (min-width: 992px) and (max-width: 1199.98px) { 
     #landing {
         padding-top: 12vh;
         padding-bottom: 12vh;
     }
   }
+
+@media (min-width: 1280px){
+    #landing {
+        padding-top: 38vh;
+        padding-bottom: 18vh;
+    }
+}
 
  @media (min-width: 1300px) {
     #landing {
