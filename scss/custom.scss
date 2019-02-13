@@ -1,19 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto:500');
+
+
 body {
     font-family: 'Roboto', sans-serif;
 }
 
+
+
 #landing {
     position: relative;
     z-index: 1;
-    padding-top: 40vh;
-    padding-bottom: 22vh;
+    padding-top: 10vh;
+    padding-bottom: 7vh;
+    font-family: 'Lato', sans-serif;
 }
 
 #slideshow {
-    z-index: -1;
+    z-index: 0;
     position: absolute ;
     top: 0;
     left: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .carousel {
@@ -24,3 +32,31 @@ body {
         height:100%;    
     }
 }
+
+@media (max-width: 575.98px) { 
+    #landing {
+        padding-top: 3vh;
+        padding-bottom: 2vh;
+    }
+ }
+
+@media (max-width: 767.98px) { 
+    #landing {
+        padding-top: 3vh;
+        padding-bottom: 0vh;
+    }
+ }
+ @media (min-width: 992px) and (max-width: 1280.98px) { 
+    #landing {
+        padding-top: 12vh;
+        padding-bottom: 12vh;
+    }
+  }
+
+ @media (min-width: 1300px) {
+    #landing {
+        padding-top: 33vh;
+        padding-bottom: 30vh;
+    }
+  }
+// @media (max-width: 1199.98px) { ... }

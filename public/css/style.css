@@ -4,6 +4,7 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css?family=Lato|Roboto:500");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -7483,19 +7484,39 @@ body {
 #landing {
   position: relative;
   z-index: 1;
-  padding-top: 40vh;
-  padding-bottom: 22vh; }
+  padding-top: 10vh;
+  padding-bottom: 7vh;
+  font-family: 'Lato', sans-serif; }
 
 #slideshow {
-  z-index: -1;
+  z-index: 0;
   position: absolute;
   top: 0;
-  left: 0; }
+  left: 0;
+  margin: 0;
+  padding: 0; }
 
 .carousel {
   height: 87.4vh;
   width: 100%; }
   .carousel .carousel-inner {
     height: 100%; }
+
+@media (max-width: 575.98px) {
+  #landing {
+    padding-top: 3vh;
+    padding-bottom: 2vh; } }
+@media (max-width: 767.98px) {
+  #landing {
+    padding-top: 3vh;
+    padding-bottom: 0vh; } }
+@media (min-width: 992px) and (max-width: 1280.98px) {
+  #landing {
+    padding-top: 12vh;
+    padding-bottom: 12vh; } }
+@media (min-width: 1300px) {
+  #landing {
+    padding-top: 33vh;
+    padding-bottom: 30vh; } }
 
 /*# sourceMappingURL=style.css.map */
