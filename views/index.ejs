@@ -47,61 +47,74 @@
     </div>
 </section>
 
-<nav class="navbar position-sticky sticky-top navbar-expand navbar-light bg-light" id="navbar-sticky">
+<nav class="navbar fixed-top navbar-expand navbar-light bg-light" id="navbar-sticky">
     <div class="collapse navbar-collapse" id="collapsibleNavId">
         <ul class="nav nav-pills mx-auto mt-2 mt-lg-0 d-flex align-items-center">
             <li class="nav-item ">
-                <a class="nav-link active p-1 p-sm-2" href="#">Home</a>
+                <a class="nav-link active" href="#">Home</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link p-1 p-sm-2" href="#">About</a>
+                <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item mx-3 d-none d-sm-block">
-                <img width="70px" src="/images/administrator.svg" alt="">
+                <img width="55px" src="/images/administrator.svg" alt="">
             </li>
             <li class="nav-item ">
-                <a class="nav-link p-1 p-sm-2" href="#">Projects</a>
+                <a class="nav-link" href="#">Projects</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link active p-1 p-sm-2" href="#">Contact</a>
+                <a class="nav-link active" href="#">Contact</a>
             </li>
         </ul>
     </div>
 </nav>
 
+<div id="fixed-bg-1">
 
-<section id="about">
+</div>
+<section id="about" class="shadow-lg mb-5 py-3 ">
+    <div class="row container">
+        <div class="col-4">
+            <img src="/images/photo.png" class="img-fluid rounded-circle" alt="">
+        </div>
+        <div class="col-8 text-left">
+            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, impedit voluptate rerum labore exercitationem officiis delectus deleniti ipsum unde numquam hic? Maxime pariatur quis asperiores reiciendis aperiam labore. Ea, numquam.</h3>
+        </div>
+    </div>
+
+</section>
+<section id="skills">
     <div class="container-fluid text-center" id="fixed-bg">
         <p class="h2">Skills</p>
         <div class="row">
             <div class="col-6">
                 <p class="h3">Front-End</p>
                 <div class="row d-flex justify-content-around" id="skills-icons">
-                    <div class="col-4">
+                    <div class="col-6 col-md-4">
                         <i class="fab fa-html5"></i>
                     </div>
-                    <div class="col-4">
+                    <div class="col-6 col-md-4">
                         <i class="fab fa-js-square"></i>
                     </div>
-                    <div class="col-4">
+                    <div class="col-6 col-md-4">
                         <i class="fab fa-css3"></i>
                     </div>
-                    <div class="col-4">
+                    <div class="col-6 col-md-4">
                         <i class="fab fa-angular"></i>
                     </div>
-                    <div class="col-4">
+                    <div class="col-6 col-md-4">
                         <i class="fab fa-react"></i>
                     </div>
-                    <div class="col-4">
+                    <div class="col-6 col-md-4">
                         <img src="/images/bootstrap.svg" alt="">
                     </div>
-                    <div class="col-4">
+                    <div class="col-6 col-md-4">
                         <img src="/images/semanticui.png" width="50px" alt="">
                     </div>
-                    <div class="col-4">
+                    <div class="col-6 col-md-4">
                         <i class="fab fa-sass"></i>
                     </div>
-                    <div class="col-4">
+                    <div class="col-6 col-md-4">
                         <img src="/images/jquery.svg" width="70px" alt="">
                     </div>
                 </div>
@@ -109,16 +122,16 @@
             <div class="col-6">
                 <p class="h3">Back-End</p>
                 <div class="row d-flex justify-content-around" id="skills-icons">
-                    <div class="col-4">
+                    <div class="col-6 col-md-4">
                         <i class="fab fa-node"></i>
                     </div>
-                    <div class="col-4">
+                    <div class="col-6 col-md-4">
                         <img src="/images/mongodb.svg" width="40px" alt="">
                     </div>
-                    <div class="col-4">
+                    <div class="col-6 col-md-4">
                         <img src="/images/express.png" width="100px" alt="">
                     </div>
-                    <div class="col-4">
+                    <div class="col-6 col-md-4">
                         <i class="fab fa-npm"></i>
                     </div>
                 </div>
