@@ -13,6 +13,7 @@ body {
     padding-top: 10vh;
     padding-bottom: 7vh;
     font-family: 'Lato', sans-serif;
+    margin-bottom: 0;
 }
 
 #slideshow {
@@ -31,6 +32,10 @@ body {
     .carousel-inner {
         height:100%;    
     }
+}
+
+#skills-icons {
+    font-size: 3.5rem;
 }
 
 @media (max-width: 575.98px) { 
@@ -63,7 +68,7 @@ body {
  @media (min-width: 1300px) {
     #landing {
         padding-top: 33vh;
-        padding-bottom: 30vh;
+        padding-bottom: 27vh;
     }
   }
 // @media (max-width: 1199.98px) { ... }

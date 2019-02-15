@@ -7486,7 +7486,8 @@ body {
   z-index: 1;
   padding-top: 10vh;
   padding-bottom: 7vh;
-  font-family: 'Lato', sans-serif; }
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 0; }
 
 #slideshow {
   z-index: 0;
@@ -7501,6 +7502,9 @@ body {
   width: 100%; }
   .carousel .carousel-inner {
     height: 100%; }
+
+#skills-icons {
+  font-size: 3.5rem; }
 
 @media (max-width: 575.98px) {
   #landing {
@@ -7521,6 +7525,6 @@ body {
 @media (min-width: 1300px) {
   #landing {
     padding-top: 33vh;
-    padding-bottom: 30vh; } }
+    padding-bottom: 27vh; } }
 
 /*# sourceMappingURL=style.css.map */
