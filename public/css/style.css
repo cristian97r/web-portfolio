@@ -7506,6 +7506,10 @@ body {
 #skills-icons {
   font-size: 3.5rem; }
 
+#fixedBg {
+  background-image: url(/images/irvan-smith-563895-unsplash.jpg);
+  background-attachment: fixed; }
+
 @media (max-width: 575.98px) {
   #landing {
     padding-top: 3vh;
