@@ -1,81 +1,44 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Roboto:500');
-
+@import url('https://fonts.googleapis.com/css?family=Nunito');
 
 body {
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    i {
+        color: #A8A8A8;
+    }
+}
+
+li {
+    list-style: none;
+    margin-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h4 {
+    font-family: 'Nunito', sans-serif;
+}
+
 
 
 #landing {
-    position: relative;
-    z-index: 1;
-    padding-top: 10vh;
-    padding-bottom: 7vh;
+    margin: 0px; 
+    padding-top: 175px; 
+    padding-bottom: 116px;
     font-family: 'Lato', sans-serif;
-    margin-bottom: 0;
+    background-image: url(/images/charles-456501-unsplash.jpg);
+    background-attachment: fixed center;
+    background-size: cover;
 }
 
-#slideshow {
-    z-index: 0;
-    position: absolute ;
-    top: 0;
-    left: 0;
-    margin: 0;
-    padding: 0;
-}
-
-.carousel {
-    height: 87.4vh;
-    width: 100%;
-
-    .carousel-inner {
-        height:100%;    
+@media (max-width: 478px) {
+    .textHeader {
+        font-size: 18px
     }
 }
 
 
-#skills-icons {
-    font-size: 3.5rem;
-}
-
-#fixedBg {
-    background-image: url(/images/irvan-smith-563895-unsplash.jpg);
-    background-attachment: fixed;
-}
-
-
-@media (max-width: 575.98px) { 
-    #landing {
-        padding-top: 3vh;
-        padding-bottom: 9vh;
-    }
- }
-
-@media (max-width: 767.98px) { 
-    #landing {
-        padding-top: 9vh;
-        padding-bottom: 10vh;
-    }
- }
- @media (min-width: 992px) and (max-width: 1199.98px) { 
-    #landing {
-        padding-top: 12vh;
-        padding-bottom: 12vh;
-    }
-  }
-
-@media (min-width: 1280px){
-    #landing {
-        padding-top: 38vh;
-        padding-bottom: 20vh;
-    }
-}
-
- @media (min-width: 1300px) {
-    #landing {
-        padding-top: 33vh;
-        padding-bottom: 30vh;
-    }
-  }
-// @media (max-width: 1199.98px) { ... }
+    

@@ -10,5 +10,5 @@ app.get("/", function(req, res) {
 });
 
 app.listen(process.env.PORT, process.env.IP, function(){
-    console.log("the app is running")
+    console.log("the app is running in " + process.env.PORT)
 });

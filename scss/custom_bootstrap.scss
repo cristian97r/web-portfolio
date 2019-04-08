@@ -1,5 +1,7 @@
-// Custom
-
-//Import Bootstrap
+$theme-colors: (
+    "primary": #33658A,
+    "danger": #912F40,
+    "info": #40434E
+);
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
