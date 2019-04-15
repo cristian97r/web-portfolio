@@ -3,6 +3,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    height: 100%;
+    width: 100%;
 }
 
 a {
@@ -24,10 +26,10 @@ h4 {
 
 
 #landing {
-    margin: 0px;
-    padding: 0px; 
-    height: 100vh;
-    width: 98.8vw;
+    margin: 0px; 
+    padding: 0px;
+    height: 91vh;
+    width: 98.6vw;
     font-family: 'Lato', sans-serif;
     background-image: url(/images/charles-456501-unsplash.jpg);
     background-attachment: fixed center;

@@ -7480,7 +7480,9 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 body {
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  width: 100%; }
 
 a i {
   color: #A8A8A8; }
@@ -7496,8 +7498,8 @@ h4 {
 #landing {
   margin: 0px;
   padding: 0px;
-  height: 100vh;
-  width: 98.8vw;
+  height: 91vh;
+  width: 98.6vw;
   font-family: 'Lato', sans-serif;
   background-image: url(/images/charles-456501-unsplash.jpg);
   background-attachment: fixed center;
